@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: rgb(110, 110, 110);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+.text-box {
+    background-image: url('https://frutasolivar.com/wp-content/uploads/2019/01/venta-frutas-verduras.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el área del contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 80px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados opcional */
+    max-width: 100rem; /* Ancho máximo del contenedor */
+    margin: 10 auto;
+}
+
+.productos {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.productos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #28a745;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 0 px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 280px;
+    padding: 10px;
+}
+.custom-card img {
+    width: 60%;
+    height:  auto;
+    margin: 0 auto;
+    display: block; 
+    border: 2px solid #070808;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.custom-btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background-color: #218838;
+    text-decoration: none;
+    }
+footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }

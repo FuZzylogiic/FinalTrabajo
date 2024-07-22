@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: rgb(110, 110, 110);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+.text-box {
+    background-image: url('https://frutasolivar.com/wp-content/uploads/2019/01/venta-frutas-verduras.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el área del contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 80px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados opcional */
+    max-width: 100rem; /* Ancho máximo del contenedor */
+    margin: 10 auto;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    flex-shrink: 0;
+    width: 600px;
+    height: 430px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten si no caben en una sola fila */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Espacio igual entre tarjetas */
+    gap: 30px; /* Espacio entre las tarjetas */
+}
+/* Estilos para la tarjeta */
+.custom-card {
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen a la imagen */
+    margin-bottom:3rem; /* Espaciado inferior reducido para tarjetas en línea */
+    background-color: rgb(49, 97, 49); /* Fondo azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px; /* Espaciado interno reducido */
+    width: 500px;
+}
+
+
+.card-img-top {
+    width: 70%; /* La imagen ocupa el 80% del ancho del contenedor */
+    height:  auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen sea un bloque para que margin funcione */
+}
+
+.card-body {
+    color: #ffffff; /* Texto blanco */
+    padding: 10px; /* Espaciado interno reducido */
+    width: 1000px; /* Ancho fijo para el cuadro azul */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin: 10 auto; /* Centra el cuadro horizontalmente dentro de su contenedor */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del elemento */
+}
+.card-title {
+    font-size: 1rem; /* Tamaño de fuente del título reducido */
+    margin-bottom: 10px; /* Espaciado inferior reducido */
+    font-weight: bold; /* Negrita */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Tamaño de fuente del texto reducido */
+    line-height: 1.1; /* Altura de línea ajustada para mejorar la legibilidad */
+}
+
+.custom-btn {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 25px; /* Bordes redondeados para el botón */
+    padding: 8px 16px; /* Espaciado interno del botón reducido */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 0.8rem; /* Tamaño de fuente del botón reducido */
+}
+
+.custom-btn:hover {
+    background-color: #0056b3; /* Color de fondo del botón en hover */
+    text-decoration: none; /* Elimina el subrayado en hover */
+}
